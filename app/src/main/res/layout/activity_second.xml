@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/themelayout"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/imglogon"
+        android:layout_width="match_parent"
+        android:background="@drawable/cardview"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/fb" />
+
+    <TextView
+        android:id="@+id/txtusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/txtlogon"
+        android:layout_width="match_parent"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Log on successfully" />
+</LinearLayout>
