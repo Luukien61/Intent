@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         addevents()
         val mess = "this is a new change"
         val mess2 = "this is a message from branch one"
+        val mess3 ="this is a message from master"
 
     }
 
