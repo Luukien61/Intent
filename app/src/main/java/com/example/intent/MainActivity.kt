@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         customadpt= customadapter(this, listaccount)
         binding.lvaccount.adapter= customadpt
         addevents()
+        val mess = "this is a new change"
 
     }
 
