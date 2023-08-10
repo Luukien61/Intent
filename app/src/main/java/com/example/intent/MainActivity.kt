@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         binding.lvaccount.adapter= customadpt
         addevents()
         val mess = "this is a new change"
+        val mess2 = "this is a message from branch one"
 
     }
 
